@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter Tight', sans-serif;
+    @apply bg-gray-100;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hide-navbar {
+    transform: translate(-50%, -200%) !important;
+}
+
+.perspective {
+    perspective: 1000px;
+}
